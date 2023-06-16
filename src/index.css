@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arima', 'cursive';
+  background-color: #fffcf6;
+  overflow: hidden;
+}
+
+h1 {
+  padding-top: 40vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #d19c4e;
+}
+
+img#elefante{
+  width: 70%;
+}
+
+img#globo-1{
+  width: 20%;
+  transform: rotate(25deg);
+  padding-left: 60px;
+}
+
+img#globo-2{
+  width: 20%;
+  transform: rotate(0deg);
+}
+
+img#globo-3{
+  width: 20%;
+  transform: rotate(-25deg);
+  padding-right: 65px;
+}
+
+img#globo-izq{
+  width: 25%;
+  padding-left: 35px;
+}
+
+img#estrella-izq{
+  width: 25%;
+  padding-left: 5px;
+  transform: scaleY(-1);
+}
+
+img#globo-der{
+  width: 25%;
+  padding-right: 45px;
+}
+
+img#estrella-der{
+  width: 25%;
+  padding-left: 5px;
+  transform: scaleX(-1);
+}
+
+img#mona{
+  width: 60%;
+}
+
+#scratch{
+  height: 70px;
+  width: 75px;
+  transform: translate(175px,-140px);
+  background: repeating-linear-gradient(0deg,#fff 0%, #fff 50%, #000 50%, #000 100%),
+    repeating-linear-gradient(90deg,#fff 0%, #fff 50%, #000 50%, #000 100%);
+  background-size: 12px 12px;
+  background-blend-mode: difference;
+}
+
+span{
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #000;
+  pointer-events: none;
+  border-radius: 50%;
+}
